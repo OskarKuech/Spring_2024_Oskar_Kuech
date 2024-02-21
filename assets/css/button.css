@@ -1,0 +1,15 @@
+.button_textstyle {
+    color: black;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background-color: white;
+    padding: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button_textstyle:hover {
+background-color: black;
+color: white;
+}

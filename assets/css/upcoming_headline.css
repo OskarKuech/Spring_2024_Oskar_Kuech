@@ -1,0 +1,19 @@
+.headline {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.headline_coming_this_week {
+color: black;
+font-family: "Space Grotesk";
+font-size: 32px;
+margin-bottom: 8px;
+}
+
+.headline_upcoming {
+color: black;
+font-family: "Space Grotesk";
+font-size: 24px;
+margin-bottom: 8px;
+}

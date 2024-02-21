@@ -1,0 +1,25 @@
+.poster_coming_this_week {
+    max-width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.poster_coming_soon {
+    position: relative;
+    max-width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+
+.poster_size {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.poster_movie_card {
+    position: relative;
+    max-width: 100%;
+    height: 160px;
+    overflow: hidden;
+}

@@ -1,0 +1,22 @@
+.textfield_textstyle {
+    color: black;
+    font-family: "Space Grotesk";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.textfield_textstyle input[type="text"] {
+    color: black;
+    font-family: "Space Grotesk";
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.row {
+    display: flex;
+    gap: 16px;
+}

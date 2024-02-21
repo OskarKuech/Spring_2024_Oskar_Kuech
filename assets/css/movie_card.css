@@ -1,0 +1,85 @@
+.movie_card {
+    color: black;
+    display: inline-flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.movie_card_divider_vertical {
+    width: 1px;
+    height: 120px;
+    background: #DAADDA;
+}
+
+.movie_card_divider_horizontal {
+    width: auto;
+    height: 1px;
+    background: #DADADA;
+}
+
+.movie_card_release_month {
+    color: black;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.movie_card_release_date {
+    color: black;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 48px;
+    line-height: normal;
+    width: 80px;
+}
+
+.movie_card_details {
+    display: flex;
+    max-height: 160px;
+    width: 160px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    overflow: hidden;
+}
+
+.movie_card_title {
+    color: black;
+    font-family: "Space Grotesk";
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.movie_card_runtime {
+    color: black;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.movie_card_genre {
+    max-width: 140px;
+    flex-shrink: 0;
+    color: black;
+    font-family: "Space Grotesk";
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.movie_card_description {
+    color: black;
+    font-family: "Space Grotesk";
+    display: flex;
+    max-height: 160px;
+    max-width: 1000px;
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
