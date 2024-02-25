@@ -54,6 +54,7 @@
     font-family: "Space Grotesk";
     text-transform: uppercase;
     font-size: 16px;
+    overflow: hidden;
 }
 
 .movie_card_runtime {
@@ -61,15 +62,18 @@
     font-family: "Space Grotesk";
     font-size: 16px;
     text-transform: capitalize;
+    overflow: hidden;
 }
 
 .movie_card_genre {
     max-width: 140px;
-    flex-shrink: 0;
+    flex-shrink: 3;
     color: black;
     font-family: "Space Grotesk";
     font-size: 16px;
     text-transform: capitalize;
+
+    overflow: hidden;
 }
 
 .movie_card_description {
@@ -82,4 +86,15 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    flex: 1;
+    overflow: hidden;
+    align-items: flex-start;
 }
+
+
+
+@media (max-width: 900px){
+    .movie_card_description {
+        display: none;
+    }
+  }

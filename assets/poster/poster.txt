@@ -36,3 +36,9 @@ Miller's Girl:
 
 Kung Fu Panda 4:
     https://image.tmdb.org/t/p/original/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg
+
+Oppenheimer:
+    https://image.tmdb.org/t/p/original/ptpr0kGAckfQkJeJIt8st5dglvd.jpg
+
+Priscilla:
+    https://image.tmdb.org/t/p/original/kRGMnxFQodcKCDo1xK3bIAi4zfV.jpg

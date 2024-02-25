@@ -1,0 +1,9 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "Space Grotesk";
+}
+
+a {
+    text-decoration: none;
+}

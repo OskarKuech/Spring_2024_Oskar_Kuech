@@ -1,7 +1,7 @@
 .header_textstyle{
     color: black;
     font-family: "Space Grotesk";
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 16px;
 }
@@ -32,7 +32,7 @@
 .user_menu p {
     margin: 0;
     font-family: "Space Grotesk";
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .nav_button {
@@ -42,7 +42,7 @@
     background-color: white;
     padding: 8px;
     transition: background-color 0.3s, color 0.3s;;
-    font-size: 16px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
@@ -70,6 +70,7 @@
 .container {
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 }
 
 
@@ -79,4 +80,11 @@
 body {
     padding-left: 40px;
     padding-right: 40px;
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        flex-wrap: wrap;
+    }
 }
