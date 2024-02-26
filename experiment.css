@@ -1,0 +1,126 @@
+.movie_container_wrapper {
+    flex-basis: 25%;
+    box-sizing: border-box;
+}
+
+.movie_container {
+    position: relative;
+    background-color: red;
+    border-radius: 2px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    color: #6e7474;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.movie_container_image {
+display: block;
+width: 100%;
+overflow: hidden;
+max-height: 650px;
+}
+
+.movie_container_image img {
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+
+.movie_container_info {
+    color: black;
+}
+
+
+.image_row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image_properties {
+    height: 600px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  .image_properties img {
+    width: auto;
+    height: 100%; /* Ensures the image takes up full height of its container */
+    display: block;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .image_row {
+      flex-wrap: nowrap; /* Prevent flex items from wrapping on screens wider than 1000px */
+    }
+  }
+
+.poster_text {
+    max-height: 140px;
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.70) 100%);
+}
+
+.poster_title_text {
+    font-size: 20px;
+}
+
+.poster_date_text {
+    font-size: 16px;
+}
+.flipcontainer {
+  height: 500px;
+}
+
+.ansicht img{
+  transform: perspective(400px) rotateY(10deg);
+  height: 300px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.rotateimg {
+  position: relative;
+  max-width: 100%;
+  height: 320px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+
+.backdrop_size {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%; 
+  max-height: 20%;
+}
+
+.backdrop_size img{
+  width: 100%;
+  height: auto;
+}
+
+.backdrop_gradient {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+}
