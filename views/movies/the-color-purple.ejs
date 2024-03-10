@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../includes/head', {title: "The Color Purple"}) %>
+    <body>
+    
+        <header>
+            <%- include ('../includes/navbar.ejs') %>
+        </header>
+
+         <main>
+            <%- include ('../includes/movie-details.ejs', {
+                title: "The Color Purple", release_date: 'Feb 08th 2024', runtime: '1h 22m', director: 'Blitz Bazawule', genre: 'Drama, Music', 
+                poster: 'https://image.tmdb.org/t/p/original/h5bqIxM8GO4TewJ0u6Rzkg58ssJ.jpg',
+                description: "A decades-spanning tale of love and resilience and of one woman's journey to independence. Celie faces many hardships in her life, but ultimately finds extraordinary strength and hope in the unbreakable bonds of sisterhood."
+            }) %>
+        </main>
+</body>
+</html>

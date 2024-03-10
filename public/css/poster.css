@@ -1,0 +1,115 @@
+.poster_row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 16px;
+}
+
+.poster_row::-webkit-scrollbar {
+    display: none;
+}
+
+.poster_coming_this_week {
+    height: 400px;
+    box-sizing: border-box;
+    padding: 5px;
+    transition: 800ms all;
+}
+
+.poster_coming_this_week img {
+    width: auto;
+    height: 100%;
+    display: block;
+}
+
+.poster_coming_this_week:hover {
+    cursor: pointer;
+    transform-origin: left;
+    transform: scale(1.15);
+}
+
+.poster_coming_this_week:hover~.poster_coming_this_week {
+    transform: translate(40px);
+}
+
+
+.poster_coming_soon {
+    position: relative;
+    height: 320px;
+    box-sizing: border-box;
+    transition: 800ms all;
+}
+
+.poster_coming_soon img {
+    width: auto;
+    height: 100%;
+    display: block;
+}
+
+.poster_coming_soon:hover {
+    cursor: pointer;
+    transform-origin: left;
+    transform: scale(1.15);
+}
+
+.poster_coming_soon:hover~.poster_coming_soon {
+    transform: translate(40px);
+}
+
+
+.poster_movie_card {
+    position: relative;
+    max-width: 100%;
+    height: 160px;
+    overflow: hidden;
+}
+
+.poster_movie_card img{
+    width: auto;
+    height: 100%;
+    display: block;
+}
+
+.poster_text {
+    max-height: 140px;
+    position: absolute;
+    padding: 20px;
+    width: 90%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.70) 100%);
+}
+
+.poster_title_text {
+    font-size: 20px;
+}
+
+.poster_date_text {
+    font-size: 16px;
+}
+
+.poster_details {
+    flex: none;
+    position: relative;
+    max-width: 100%;
+    height: 800px;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.poster_details img {
+    width: auto;
+    height: 95%;
+    display: block;
+    transform: perspective(400px) rotateY(5deg);
+}
+
+
+@media screen and (min-width: 1000px) {
+    .poster_row {
+      flex-wrap: nowrap; /* Prevent flex items from wrapping on screens wider than 1000px */
+    }
+  }

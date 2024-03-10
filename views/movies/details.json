@@ -1,0 +1,167 @@
+[
+    {
+        "title": "Anyone But You",
+        "release_date": "Jan 18th 2024",
+        "runtime": "1h 44m",
+        "director": "Will Gluck",
+        "genre": "Comedy, Romance",
+        "description": "Bea and Ben look like the perfect couple, but after an amazing first date something happens that turns their fiery hot attraction ice cold - until they find themselves unexpectedly thrust together at a destination wedding in Australia. So they do what any two mature adults would do: pretend to be a couple.",
+        "poster": "https://image.tmdb.org/t/p/original/yRt7MGBElkLQOYRvLTT1b3B1rcp.jpg",
+        "trailer_id": "gbjdSlTHFts"
+    },
+
+    {
+        "title": "Argylle",
+        "release_date": "Feb 01st 2024",
+        "runtime": "2h 19m",
+        "director": "Matthew Vaughn",
+        "genre": "Comedy, Action, Crime",
+        "description": "When the plots of reclusive author Elly Conway's fictional espionage novels begin to mirror the covert actions of a real-life spy organization, quiet evenings at home become a thing of the past. Accompanied by her cat Alfie and Aiden, a cat-allergic spy, Elly races across the world to stay one step ahead of the killers as the line between Conway's fictional world and her real one begins to blur.",
+        "poster": "https://image.tmdb.org/t/p/original/siduVKgOnABO4WH4lOwPQwaGwJp.jpg",
+        "trailer_id": "7mgu9mNZ8Hk"
+    },
+
+    {
+        "title": "Autumn and the Black Jaguar",
+        "release_date": "Feb 01st 2024",
+        "runtime": "1h 40m",
+        "director": "Gilles de Maistre",
+        "genre": "Adventure, Family",
+        "description": "Grown up in the Amazon rainforest, Autumn lives with Hope, the cute baby jaguar she adopted. However, a circumstance forces Autumn to return to New York. Autumn goes back into the jungle to save Hope from grave danger.",
+        "poster": "https://image.tmdb.org/t/p/original/8pX3N2ksOFFs4WlSj7q9dJW4Wvm.jpg",
+        "trailer_id": "Y7wWZsTRr4I"
+    },
+
+    {
+        "title": "Chantal im Märchenland",
+        "release_date": "Mar 28th 2024",
+        "runtime": "",
+        "director": "",
+        "genre": "", 
+        "description": "", 
+        "poster": "https://image.tmdb.org/t/p/original/764XblPzhvrrbraNo4mdrV8iLwV.jpg",
+        "trailer_id": ""
+
+    },
+
+    {
+        "title": "Dune: Part Two",
+        "release_date": "Feb 29th 2024",
+        "runtime": "2h 46m",
+        "director": "Denis Villeneuve",
+        "genre": "Science Fiction, Adventure",
+        "description": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.",
+        "poster": "https://image.tmdb.org/t/p/original/mFnF8tpPMqEwti2J2aMhYGZYdv0.jpg",
+        "trailer_id": "Way9Dexny3w"
+    },
+
+    {
+        "title": "Eine Million Minuten",
+        "release_date": "Feb 01st 2024",
+        "runtime": "1h 50m",
+        "director": "Christopher Doll",
+        "genre": "Drama",
+        "description": "Vera and Wolf Küper live in Berlin with their 5-year-old daughter Nina and their one-year-old son Simon. Vera takes care of the children and the household alongside a part-time job, while Wolf works as a scientific advisor to the UN, trying to raise awareness of the seriousness of the coming climate catastrophe. The stressful everyday life in a system that is not exactly family-friendly puts increasing strain on the young family and the couple's relationship. The Küper family's way of life is finally shaken to the core when little Nina is diagnosed with a fine motor and coordination disorder. At this moment, Wolf remembers a wish that his daughter expressed shortly before going to bed. Nina would like to have a million minutes, just for the really nice things.",
+        "poster": "https://image.tmdb.org/t/p/original/uNus3fis0jKzLL475tr3xNoy4DB.jpg",
+        "trailer_id": "qqK2z-UeUxk"
+    },
+
+    {
+        "title": "Kung Fu Panda 4",
+        "release_date": "Mar 14th 2024",
+        "runtime": "1h 34m",
+        "director": "Mike Mitchell",
+        "genre": "Action, Adventure, Animation, Comedy, Family",
+        "description": "Po is gearing up to become the spiritual leader of his Valley of Peace, but also needs someone to take his place as Dragon Warrior. As such, he will train a new kung fu practitioner for the spot and will encounter a villain called the Chameleon who conjures villains from the past.",
+        "poster": "https://image.tmdb.org/t/p/original/kDp1vUBnMpe8ak4rjgl3cLELqjU.jpg",
+        "trailer_id": "_inKs4eeHiI"
+    },
+
+    {
+        "title": "Lisa Frankenstein",
+        "release_date": "Feb 22nd 2024",
+        "runtime": "1h 42m",
+        "director": "Zelda Williams",
+        "genre": "Comedy, Horror, Romance",
+        "description": "In 1989, a misunderstood teenager has a high school crush — who just happens to be a handsome corpse! After a set of playfully horrific circumstances bring him back to life, the two embark on a murderous journey to find love, happiness…and a few missing body parts along the way.",
+        "poster": "https://image.tmdb.org/t/p/original/mdPnNWU05ivcVp0rF2Dv9n5Maf4.jpg",
+        "trailer_id": "POOeA3zCuUY"
+    },
+
+    {
+        "title": "Madame Web",
+        "release_date": "Feb 14th 2024",
+        "runtime": "1h 56m",
+        "director": "S.J. Clarkson",
+        "genre": "Science Fiction, Action, Adventure",
+        "description": "Forced to confront revelations about her past, paramedic Cassandra Webb forges a relationship with three young women destined for powerful futures...if they can all survive a deadly present.",
+        "poster": "https://image.tmdb.org/t/p/original/rULWuutDcN5NvtiZi4FRPzRYWSh.jpg",
+        "trailer_id": "s_76M4c4LTo"
+    },
+
+    {
+        "title": "Mean Girls",
+        "release_date": "Jan 10th 2024",
+        "runtime": "1h 53m",
+        "director": "Arturo Perez Jr.",
+        "genre": "Comedy",
+        "description": "New student Cady Heron is welcomed into the top of the social food chain by the elite group of popular girls called ‘The Plastics,’ ruled by the conniving queen bee Regina George and her minions Gretchen and Karen. However, when Cady makes the major misstep of falling for Regina’s ex-boyfriend Aaron Samuels, she finds herself prey in Regina’s crosshairs. As Cady sets to take down the group’s apex predator with the help of her outcast friends Janis and Damian, she must learn how to stay true to herself while navigating the most cutthroat jungle of all: high school.",
+        "poster": "https://image.tmdb.org/t/p/original/fbbj3viSUDEGT1fFFMNpHP1iUjw.jpg",
+        "trailer_id": "fFtdbEgnUOk"
+    },
+
+    {
+        "title": "Miller's Girl",
+        "release_date": "Mar 13th 2024",
+        "runtime": "1h 39m",
+        "director": "Jade Bartlett",
+        "genre": "Drama, Thriller",
+        "description": "A talented young writer embarks on a creative odyssey when her teacher assigns a project that entangles them both in an increasingly complex web.",
+        "poster": "https://image.tmdb.org/t/p/original/aygFQeDmmtlArzo8epmsOg9mz9f.jpg",
+        "trailer_id": "vk2OJZHutBM"
+    },
+
+    {
+        "title": "Poor Things",
+        "release_date": "Jan 18th 2024",
+        "runtime": "2h 22m",
+        "director": "Yorgos Lanthimos",
+        "genre": "Science Fiction, Romance, Comedy",
+        "description": "Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.",
+        "poster": "https://image.tmdb.org/t/p/original/jV3c2fsBNCJgcesxdNM9O0lwwdT.jpg",
+        "trailer_id": "RlbR5N6veqw"
+    },
+
+    {
+        "title": "The Ballade of Songbirds and Snakes",
+        "release_date": "Nov 16th 2024",
+        "runtime": "2h 37m",
+        "director": "Francis Lawrence",
+        "genre": "Science Fiction, Romance, Comedy",
+        "description": "64 years before he becomes the tyrannical president of Panem, Coriolanus Snow sees a chance for a change in fortunes when he mentors Lucy Gray Baird, the female tribute from District 12.",
+        "poster": "https://image.tmdb.org/t/p/original/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg",
+        "trailer_id": "RDE6Uz73A7g"
+    },
+
+    {
+        "title": "The Color Purple",
+        "release_date": "Feb 08th 2024",
+        "runtime": "1h 22m",
+        "director": "Blitz Bazawule",
+        "genre": "Drama, Music",
+        "description": "A decades-spanning tale of love and resilience and of one woman's journey to independence. Celie faces many hardships in her life, but ultimately finds extraordinary strength and hope in the unbreakable bonds of sisterhood.",
+        "poster": "https://image.tmdb.org/t/p/original/h5bqIxM8GO4TewJ0u6Rzkg58ssJ.jpg",
+        "trailer_id": "wPwzBUui1GA"
+    },
+
+    {
+        "title": "Wonka",
+        "release_date": "Dec 07th 2023",
+        "runtime": "1h 53m",
+        "director": "Paul King",
+        "genre": "Comedy, Family, Fantasy",
+        "description": "Willy Wonka – chock-full of ideas and determined to change the world one delectable bite at a time – is proof that the best things in life begin with a dream, and if you’re lucky enough to meet Willy Wonka, anything is possible.",
+        "poster": "https://image.tmdb.org/t/p/original/f9Ci5on44fIV1BMTOzzGrDf3P5C.jpg",
+        "trailer_id": "otNh9bTjXWg"
+    }
+]

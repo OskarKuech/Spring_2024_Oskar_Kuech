@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../includes/head', {title: 'Eine Million Minuten'}) %>
+    <body>
+    
+        <header>
+            <%- include ('../includes/navbar.ejs') %>
+        </header>
+
+         <main>
+            <%- include ('../includes/movie-details.ejs', {
+                title: 'Eine Million Minuten', release_date: 'Feb 01st 2024', runtime: '1h 50m', director: 'Christopher Doll', genre: 'Drama', 
+                poster: 'https://image.tmdb.org/t/p/original/uNus3fis0jKzLL475tr3xNoy4DB.jpg',
+                description: "Vera and Wolf Küper live in Berlin with their 5-year-old daughter Nina and their one-year-old son Simon. Vera takes care of the children and the household alongside a part-time job, while Wolf works as a scientific advisor to the UN, trying to raise awareness of the seriousness of the coming climate catastrophe. The stressful everyday life in a system that is not exactly family-friendly puts increasing strain on the young family and the couple's relationship. The Küper family's way of life is finally shaken to the core when little Nina is diagnosed with a fine motor and coordination disorder. At this moment, Wolf remembers a wish that his daughter expressed shortly before going to bed. Nina would like to have a million minutes, just for the really nice things."
+            }) %>
+        </main>
+</body>
+</html>

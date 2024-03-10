@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../includes/head', {title: 'Poor Things'}) %>
+    <body>
+    
+        <header>
+            <%- include ('../includes/navbar.ejs') %>
+        </header>
+
+         <main>
+            <%- include ('../includes/movie-details.ejs', {
+                title: 'Poor Things', release_date: 'Jan 18th 2024 ', runtime: '2h 22m', director: 'Yorgos Lanthimos', genre: 'Science Fiction, Romance, Comedy', 
+                poster: 'https://image.tmdb.org/t/p/original/jV3c2fsBNCJgcesxdNM9O0lwwdT.jpg', 
+                description: 'Brought back to life by an unorthodox scientist, a young woman runs off with a debauched lawyer on a whirlwind adventure across the continents. Free from the prejudices of her times, she grows steadfast in her purpose to stand for equality and liberation.'
+            }) %>
+        </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<div class="movie_card_divider_horizontal"></div>
+
+<article class="movie_card">
+    <div class="movie_card_release_date"> <%= day %></div>
+    <div class="movie_card_divider_vertical"></div>
+    <div class="poster_movie_card">
+        <a href="/movies/<%= movieLink %>">
+            <img src= <%= poster %> alt="Poster <%= title %>">
+        </a>
+    </div>
+    <div class="movie_card_divider_vertical"></div>
+    <div class="movie_card_details">
+        <a href="/movies/<%= movieLink %>">
+            <div class="movie_card_title"> <%= title %></div>
+        </a>
+        <div class="movie_card_runtime"> <%= runtime %></div>
+        <div class="movie_card_genre"> <%= genre %></div>
+    </div>
+    <div class="movie_card_divider_vertical"></div>
+    <div class="movie_card_description"> <%= description %></div>
+</article>

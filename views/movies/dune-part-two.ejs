@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../includes/head', {title: 'Dune: Part Two'}) %>
+    <body>
+    
+        <header>
+            <%- include ('../includes/navbar.ejs') %>
+        </header>
+
+         <main>
+            <%- include ('../includes/movie-details.ejs', {
+                title: 'Dune: Part Two', release_date: 'Feb 29th 2024', runtime: '2h 46m', director: 'Denis Villeneuve', genre: 'Science Fiction, Adventure', 
+                poster: 'https://image.tmdb.org/t/p/original/mFnF8tpPMqEwti2J2aMhYGZYdv0.jpg',
+                description: 'Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee.'
+            }) %>
+        </main>
+</body>
+</html>

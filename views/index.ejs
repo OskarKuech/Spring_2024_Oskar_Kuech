@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/head', {title: 'Home'}) %>
+<body>
+
+    <header>
+        <%- include ('includes/navbar.ejs') %>
+    </header>
+
+    <section> <!--Coming this week-->
+        <div class="headline">
+            <p class="headline_coming_this_week">Coming this week</p>
+        </div>
+    
+        <div class="poster_row">
+
+            <%- include ('includes/movie-coming-this-week.ejs', {
+                title: 'Poor Things', movieLink: 'poor-things',
+                poster: 'https://image.tmdb.org/t/p/original/jV3c2fsBNCJgcesxdNM9O0lwwdT.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-this-week.ejs', {
+                title: 'Wonka', movieLink: 'wonka',
+                poster: 'https://image.tmdb.org/t/p/original/qhb1qOilapbapxWQn9jtRCMwXJF.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-this-week.ejs', {
+                title: 'Dune: Part Two', movieLink: 'dune-part-two',
+                poster: 'https://image.tmdb.org/t/p/original/mFnF8tpPMqEwti2J2aMhYGZYdv0.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-this-week.ejs', {
+                title: 'Mean Girls', movieLink: 'mean-girls-2024',
+                poster: 'https://image.tmdb.org/t/p/original/fbbj3viSUDEGT1fFFMNpHP1iUjw.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-this-week.ejs', {
+                title: 'The Ballade of Songbirds and Snakes', movieLink: 'the-ballade-of-songbirds-and-snakes',
+                poster: 'https://image.tmdb.org/t/p/original/mBaXZ95R2OxueZhvQbcEWy2DqyO.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-this-week.ejs', {
+                title: 'Argylle', movieLink: 'argylle',
+                poster: 'https://image.tmdb.org/t/p/original/siduVKgOnABO4WH4lOwPQwaGwJp.jpg'
+            }) %>
+            
+        </div>
+    </section>
+
+    <section> <!--Upcoming Blockbusters-->
+        <div class="headline">
+            <p class="headline_upcoming">Upcoming Blockbusters</p>
+            <button type="button" class="nav_button_small" onclick="alert('The idea is that it brings you to a page showing all upcoming Blockbusters. Gotta learn JavaScript first.')">All upcoming</button>
+        </div>
+
+        <div class="poster_row">
+            
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Kung Fu Panda 4', releaseDate: 'Mar 14th', movieLink: 'kung-fu-panda-4',
+                poster: 'https://image.tmdb.org/t/p/original/AupJ3wrZF6iF07B8WY90gpapEQz.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Mean Girls', releaseDate: 'Jan 10th', movieLink: 'mean-girls-2024',
+                poster: 'https://image.tmdb.org/t/p/original/xjvsrvlDOohB7HAJineHz8rGrZR.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Wonka', releaseDate: 'Dec 07th', movieLink: 'wonka',
+                poster: 'https://image.tmdb.org/t/p/original/f9Ci5on44fIV1BMTOzzGrDf3P5C.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Dune: Part Two', releaseDate: 'Feb 29th', movieLink: 'dune-part-two',
+                poster: 'https://image.tmdb.org/t/p/original/q6OlEefHppCj4qSfPEzGdsdRCG2.jpg'
+            }) %>
+
+
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Kung Fu Panda 4', releaseDate: 'Mar 14th', movieLink: 'kung-fu-panda-4',
+                poster: 'https://image.tmdb.org/t/p/original/AupJ3wrZF6iF07B8WY90gpapEQz.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Mean Girls', releaseDate: 'Jan 10th', movieLink: 'mean-girls-2024',
+                poster: 'https://image.tmdb.org/t/p/original/xjvsrvlDOohB7HAJineHz8rGrZR.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Wonka', releaseDate: 'Dec 07th', movieLink: 'wonka',
+                poster: 'https://image.tmdb.org/t/p/original/f9Ci5on44fIV1BMTOzzGrDf3P5C.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Dune: Part Two', releaseDate: 'Feb 29th', movieLink: 'dune-part-two',
+                poster: 'https://image.tmdb.org/t/p/original/q6OlEefHppCj4qSfPEzGdsdRCG2.jpg'
+            }) %>
+        </div>
+
+    </section>
+    
+    <section> <!--Upcoming German Films-->
+        <div class="headline">
+            <p class="headline_upcoming">Upcoming German films</p>
+            <button type="button" class="nav_button_small" onclick="alert('The idea is that it brings you to a page showing all upcoming german films. I still don´t know Javascript though...')">All upcoming</button>
+        </div>
+        
+        <div class="poster_row">
+        
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Eine Million Minuten', releaseDate: 'Feb 01st', movieLink: 'eine-million-minuten',
+                poster: 'https://image.tmdb.org/t/p/original/uNus3fis0jKzLL475tr3xNoy4DB.jpg'
+            }) %>
+            <%- include ('includes/movie-coming-soon.ejs', {
+                title: 'Chantal im Märchenland', releaseDate: 'Mar 28th', movieLink: 'chantal-im-maerchenland',
+                poster: 'https://image.tmdb.org/t/p/original/764XblPzhvrrbraNo4mdrV8iLwV.jpg'
+            }) %>
+           
+        </div>    
+    </section>
+
+    <section> <!--Upcoming French Films-->
+        <div class="headline">
+            <p class="headline_upcoming">Upcoming French films</p>
+            <button type="button" class="nav_button_small" onclick="alert('The idea is that it brings you to a page showing all upcoming french films. I get the feeling im repeating myself...')">All upcoming</button>
+        </div>
+
+        <div class="poster_row">
+
+        <%- include ('includes/movie-coming-soon.ejs', {
+            title: 'Cocorico', releaseDate: 'Mar 21th', movieLink: 'cocorico',
+            poster: 'https://image.tmdb.org/t/p/original/uJCxYoJ45N7NId1JvnzrsScxesY.jpg'
+        }) %>
+        <%- include ('includes/movie-coming-soon.ejs', {
+            title: 'Bonnard, Pierre et Marthe', releaseDate: 'Jan 10th', movieLink: 'bonnhard-pierre-et-marthe',
+            poster: 'https://image.tmdb.org/t/p/original/eFLKsi3oLCM4QfaSnyA0mEHEyS7.jpg'
+        }) %>
+        <%- include ('includes/movie-coming-soon.ejs', {
+            title: 'Making of', releaseDate: 'Jan 10th', movieLink: 'making-of',
+            poster: 'https://image.tmdb.org/t/p/original/fcqnq8IAAFpwWduPJYYsTC1Nz0d.jpg'
+        }) %>
+        <%- include ('includes/movie-coming-soon.ejs', {
+            title: 'Comme un Price', releaseDate: 'Jan 17th', movieLink: 'comme-un-prince',
+            poster: 'https://image.tmdb.org/t/p/original/5DCzTbpLBc8GIFD9hgJ663iHZHg.jpg'
+        }) %>
+
+    </div>
+
+    </section>
+    
+</body>
+</html>

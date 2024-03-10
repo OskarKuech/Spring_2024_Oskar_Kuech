@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../includes/head', {title: "Miller's Girl"}) %>
+    <body>
+    
+        <header>
+            <%- include ('../includes/navbar.ejs') %>
+        </header>
+
+         <main>
+            <%- include ('../includes/movie-details.ejs', {
+                title: "Miller's Girl", release_date: 'Mar 13th 2024', runtime: '1h 39m', director: 'Jade Bartlett', genre: 'Drama, Thriller', 
+                poster: 'https://image.tmdb.org/t/p/original/aygFQeDmmtlArzo8epmsOg9mz9f.jpg',
+                description: 'A talented young writer embarks on a creative odyssey when her teacher assigns a project that entangles them both in an increasingly complex web.'
+            }) %>
+        </main>
+</body>
+</html>
