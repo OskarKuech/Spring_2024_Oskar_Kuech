@@ -113,3 +113,12 @@
       flex-wrap: nowrap; /* Prevent flex items from wrapping on screens wider than 1000px */
     }
   }
+
+  @media (max-width: 600px){
+    .poster_movie_card {
+        height: 120px;
+    }
+    .poster_details {
+        height: 600px;
+    }
+}

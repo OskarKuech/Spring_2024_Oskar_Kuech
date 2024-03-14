@@ -31,7 +31,7 @@
     flex-direction: column;
     align-items: flex-start;
     margin-right: 30px;
-    text-wrap: wrap;
+    white-space: normal;
 }
 
 .attribute_type {
@@ -56,6 +56,7 @@
     font-size: 20px;
     text-transform: uppercase;
     margin-right: 20px;
+    margin-bottom: 20px;
     cursor: pointer;
     font-family: "Space Grotesk";
 }
@@ -68,6 +69,24 @@
 
 @media (max-width: 800px) {
     .details_container {
+        flex-direction: column;
+    }
+    .attribute_line {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .movie_details {
+        flex-direction: column; /* Change to column layout for smaller screens */
+    }
+
+    .movie_description {
+        max-width: 300px;
+    }
+
+    .movie_informations {
+        padding-left: 20px;
         flex-direction: column;
     }
 }
