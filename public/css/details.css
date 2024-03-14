@@ -78,7 +78,7 @@
 
 @media (max-width: 600px) {
     .movie_details {
-        flex-direction: column; /* Change to column layout for smaller screens */
+        flex-direction: column;
     }
 
     .movie_description {

@@ -107,8 +107,16 @@
 
 @media (max-width: 600px){
     .movie_card_runtime, 
-    .movie_card_genre {
+    .movie_card_genre, {
         font-size: 12px;
-        width: 56px;
+        max-width: 80px;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+    .movie_card_title {
+        max-width: 100px;
+        white-space: normal;
+        word-wrap: break-word;
+
     }
 }
