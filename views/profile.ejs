@@ -1,34 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Sign In</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/textfield.css">
-    <link rel="stylesheet" href="assets/css/sign_in.css">
-    <link rel="stylesheet" href="assets/css/textstyle.css">
-    <link rel="stylesheet" href="assets/css/profile.css">
-</head>
+    <%- include('includes/head', {title: 'Profile'}) %>
 <body>
 
 <div class="textstyle">
-    <header class="header_textstyle">
-
-        <div class="container">
-
-            <div class="nav_list">
-                <a href="index.html" class="nav_link">Home </a>
-                <a href="upcoming.html" class="nav_link">All Upcoming</a>
-                <a href="about.html" class="nav_link">About</a>
-            </div>
-
-            <div class="user_menu">
-                <a href="profile.html" class="nav_link">My Account</a>
-            </div>
-        </div>
+    <header>
+        <%- include ('includes/navbar-sign-out.ejs') %>
     </header>
 
     <div class="profile_name_text">Oskar</div>

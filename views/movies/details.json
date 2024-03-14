@@ -1,5 +1,6 @@
 [
     {
+        "slug": "Anyone But You",
         "title": "Anyone But You",
         "release_date": "Jan 18th 2024",
         "runtime": "1h 44m",
@@ -11,6 +12,7 @@
     },
 
     {
+        "slug": "Argylle",
         "title": "Argylle",
         "release_date": "Feb 01st 2024",
         "runtime": "2h 19m",
@@ -22,6 +24,7 @@
     },
 
     {
+        "slug": "Autumn and the Black Jaguar",
         "title": "Autumn and the Black Jaguar",
         "release_date": "Feb 01st 2024",
         "runtime": "1h 40m",
@@ -33,6 +36,7 @@
     },
 
     {
+        "slug": "chantal-im-maerchenland",
         "title": "Chantal im Märchenland",
         "release_date": "Mar 28th 2024",
         "runtime": "",
@@ -45,6 +49,7 @@
     },
 
     {
+        "slug": "Dune-Part-Two",
         "title": "Dune: Part Two",
         "release_date": "Feb 29th 2024",
         "runtime": "2h 46m",
@@ -56,6 +61,7 @@
     },
 
     {
+        "slug": "Eine Million Minuten",
         "title": "Eine Million Minuten",
         "release_date": "Feb 01st 2024",
         "runtime": "1h 50m",
@@ -67,6 +73,7 @@
     },
 
     {
+        "slug": "Kung Fu Panda 4",
         "title": "Kung Fu Panda 4",
         "release_date": "Mar 14th 2024",
         "runtime": "1h 34m",
@@ -78,6 +85,7 @@
     },
 
     {
+        "slug": "Lisa Frankenstein",
         "title": "Lisa Frankenstein",
         "release_date": "Feb 22nd 2024",
         "runtime": "1h 42m",
@@ -89,6 +97,7 @@
     },
 
     {
+        "slug": "Madame Web",
         "title": "Madame Web",
         "release_date": "Feb 14th 2024",
         "runtime": "1h 56m",
@@ -100,6 +109,7 @@
     },
 
     {
+        "slug": "Mean Girls",
         "title": "Mean Girls",
         "release_date": "Jan 10th 2024",
         "runtime": "1h 53m",
@@ -111,6 +121,7 @@
     },
 
     {
+        "slug": "Millers Girl",
         "title": "Miller's Girl",
         "release_date": "Mar 13th 2024",
         "runtime": "1h 39m",
@@ -122,6 +133,7 @@
     },
 
     {
+        "slug": "Poor Things",
         "title": "Poor Things",
         "release_date": "Jan 18th 2024",
         "runtime": "2h 22m",
@@ -133,6 +145,7 @@
     },
 
     {
+        "slug": "The Ballade of Songbirds and Snakes",
         "title": "The Ballade of Songbirds and Snakes",
         "release_date": "Nov 16th 2024",
         "runtime": "2h 37m",
@@ -144,6 +157,7 @@
     },
 
     {
+        "slug": "The Color Purple",
         "title": "The Color Purple",
         "release_date": "Feb 08th 2024",
         "runtime": "1h 22m",
@@ -155,6 +169,7 @@
     },
 
     {
+        "slug": "Wonka",
         "title": "Wonka",
         "release_date": "Dec 07th 2023",
         "runtime": "1h 53m",
