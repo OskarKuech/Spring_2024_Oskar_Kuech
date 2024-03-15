@@ -67,6 +67,7 @@
     border: 1px solid black;
 }
 
+
 @media (max-width: 800px) {
     .details_container {
         flex-direction: column;

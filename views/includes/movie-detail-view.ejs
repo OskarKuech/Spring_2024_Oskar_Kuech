@@ -9,5 +9,44 @@
     <%- include('../includes/movie-details.ejs') %>
 
 </main>
+
+<section>
+    <div id="main-container">
+        <dialog>
+            <div id="modal-container">
+                <iframe id="video-frame" width="100%" height="100%" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </dialog>
+    </div>
+</section>
+
 </body>
+
+<script>
+    const dialogElement = document.querySelector('dialog');
+    const videoFrame = document.getElementById('video-frame');
+    const trailerId = '<%= trailer_id %>';
+
+    document.querySelector('button').addEventListener('click', () => {
+        dialogElement.showModal();
+        playVideo();
+    });
+
+    dialogElement.addEventListener('click', (event) => {
+        if (event.target == dialogElement) {
+            dialogElement.close();
+            stopVideo();
+        }
+    });
+
+    function playVideo() {
+        const videoUrl = `https://www.youtube.com/embed/${trailerId}?autoplay=1&vq=hd1080`;
+        videoFrame.src = videoUrl;
+    }
+
+    function stopVideo() {
+        videoFrame.src = '';
+    }
+</script>
+
 </html>

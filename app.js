@@ -1,5 +1,7 @@
 import express, { request, response } from 'express';
 import fs from 'fs';
+import favicon from 'express-favicon';
+
 
 
 const app = express();
@@ -8,6 +10,9 @@ const PORT = 3000;
 
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }))
+app.use(favicon(__dirname + '/public/image/favicon.ico'));
+
+
 
 const details = JSON.parse(fs.readFileSync('./views/movies/details.json'));
 
