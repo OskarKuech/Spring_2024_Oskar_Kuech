@@ -7,24 +7,23 @@
         <%- include ('includes/navbar-sign-up.ejs') %>
     </header>
 
-    <div class="sign_up">
-        <div class="textfield_textstyle">
-            <div class="row">
-                <input type="text" id="your_name" name="your_name" placeholder="YOUR NAME" size="25">
-                <input type="text" name="email" id="email" placeholder="EMAIL ADDRESS" size="25"> 
+    <main class="sign_up">
+        <form action="/users" method="POST">
+            <div class="textfield_textstyle">
+                <div class="row">
+                    <input type="text" name="name" placeholder="NAME" size="25" required>
+                    <input type="text" name="email" placeholder="EMAIL ADDRESS" size="25" required>
+                </div>
+                <div class="row">
+                    <input type="text" name="password" placeholder="PASSWORD" size="25" required>
+                </div>
+                <div class="row">
+                    <input type="checkbox" id="terms_agreed" name="terms_agreed">
+                    <p>By creating an Account you agree with the <a href="terms-conditions" class="textstyle">Terms & Conditions</a>.</p>
+                </div>
+                <button class="nav_button">Sign Up</button>
             </div>
-            <div class="row">
-                <input type="text" name="password" id="password" placeholder="PASSWORD"size="25">
-                <input type="text" name="password" id="confirm_password" placeholder="CONFIRM PASSWORD"size="25">
-            </div>
-            <div class="row">
-                <input type="checkbox" id="terms_agreed" name="terms_agreed">
-                <p>By creating an Account you agree with the <a href="terms-conditions" class="textstyle">Terms & Conditions</a>.</p>
-            </div>
-            <div>
-                <button type="button" class="nav_button" class="textstyle" onclick="alert('I dont know JavaScript yet, so the Button does not have a proper function yet...')">Sign up</button>
-            </div>
-        </div>
-    </div>
+        </form>
+    </main>
 </body>
 </html>

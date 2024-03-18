@@ -1,6 +1,6 @@
 [
     {
-        "slug": "Anyone But You",
+        "slug": "anyone-but-you",
         "title": "Anyone But You",
         "release_date": "Jan 18th 2024",
         "runtime": "1h 44m",
@@ -12,7 +12,7 @@
     },
 
     {
-        "slug": "Argylle",
+        "slug": "argylle",
         "title": "Argylle",
         "release_date": "Feb 01st 2024",
         "runtime": "2h 19m",
@@ -24,7 +24,7 @@
     },
 
     {
-        "slug": "Autumn and the Black Jaguar",
+        "slug": "autumn-and-the-black-jaguar",
         "title": "Autumn and the Black Jaguar",
         "release_date": "Feb 01st 2024",
         "runtime": "1h 40m",
@@ -39,17 +39,17 @@
         "slug": "chantal-im-maerchenland",
         "title": "Chantal im Märchenland",
         "release_date": "Mar 28th 2024",
-        "runtime": "",
-        "director": "",
-        "genre": "", 
-        "description": "", 
+        "runtime": "1h 54m",
+        "director": "Bora Dagtekin",
+        "genre": "Comedy, Fantasy", 
+        "description": "Chantal, an influencer with no followers, and her best friend Zeynep end up in a fairytale world thanks to an antique magic mirror that they think is a social media gimmick. The marriage-mad princes didn't expect such a badass princess. Thanks to her ghetto skills, Chantal does away with reactionary fairytale clichés, fights against curses and tyrannical kings - and, above all, fights for her friendship with Zeynep.", 
         "poster": "https://image.tmdb.org/t/p/original/764XblPzhvrrbraNo4mdrV8iLwV.jpg",
-        "trailer_id": ""
+        "trailer_id": "QdgKJjdrFZc"
 
     },
 
     {
-        "slug": "Dune-Part-Two",
+        "slug": "dune-part-two",
         "title": "Dune: Part Two",
         "release_date": "Feb 29th 2024",
         "runtime": "2h 46m",
@@ -61,7 +61,7 @@
     },
 
     {
-        "slug": "Eine Million Minuten",
+        "slug": "eine-million-minuten",
         "title": "Eine Million Minuten",
         "release_date": "Feb 01st 2024",
         "runtime": "1h 50m",
@@ -73,7 +73,7 @@
     },
 
     {
-        "slug": "Kung Fu Panda 4",
+        "slug": "kung-fu-panda-4",
         "title": "Kung Fu Panda 4",
         "release_date": "Mar 14th 2024",
         "runtime": "1h 34m",
@@ -85,7 +85,7 @@
     },
 
     {
-        "slug": "Lisa Frankenstein",
+        "slug": "lisa-frankenstein",
         "title": "Lisa Frankenstein",
         "release_date": "Feb 22nd 2024",
         "runtime": "1h 42m",
@@ -97,7 +97,7 @@
     },
 
     {
-        "slug": "Madame Web",
+        "slug": "madame-web",
         "title": "Madame Web",
         "release_date": "Feb 14th 2024",
         "runtime": "1h 56m",
@@ -109,7 +109,7 @@
     },
 
     {
-        "slug": "Mean Girls",
+        "slug": "mean-girls",
         "title": "Mean Girls",
         "release_date": "Jan 10th 2024",
         "runtime": "1h 53m",
@@ -121,7 +121,7 @@
     },
 
     {
-        "slug": "Millers Girl",
+        "slug": "millers-girl",
         "title": "Miller's Girl",
         "release_date": "Mar 13th 2024",
         "runtime": "1h 39m",
@@ -133,7 +133,7 @@
     },
 
     {
-        "slug": "Poor Things",
+        "slug": "poor-things",
         "title": "Poor Things",
         "release_date": "Jan 18th 2024",
         "runtime": "2h 22m",
@@ -145,7 +145,7 @@
     },
 
     {
-        "slug": "The Ballade of Songbirds and Snakes",
+        "slug": "the-ballade-of-songbirds-and-snakes",
         "title": "The Ballade of Songbirds and Snakes",
         "release_date": "Nov 16th 2024",
         "runtime": "2h 37m",
@@ -157,7 +157,7 @@
     },
 
     {
-        "slug": "The Color Purple",
+        "slug": "the-color-purple",
         "title": "The Color Purple",
         "release_date": "Feb 08th 2024",
         "runtime": "1h 22m",
@@ -169,7 +169,7 @@
     },
 
     {
-        "slug": "Wonka",
+        "slug": "wonka",
         "title": "Wonka",
         "release_date": "Dec 07th 2023",
         "runtime": "1h 53m",

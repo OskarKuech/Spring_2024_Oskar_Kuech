@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <%- include('includes/head', {title: 'Home'}) %>
+    <link rel="stylesheet" href="/public/css/error.css">
     <style>
         body {
             margin: 0;
@@ -9,8 +10,23 @@
             height: 100vh;
             background: url('/image/Arrival-Error.jpg') center/cover no-repeat;
         }
+        body p {
+            color: white;
+            font-size: 18px;
+            text-shadow: 0 1px 0 black
+        }
+        body a {
+            text-decoration: underline;
+            color: white;
+        }
     </style>
 </head>
 <body>
+    <p>
+        Sorry, the page you were looking for appears to be Lost in Translation. 
+    </p>
+    <p>
+        Please return to the <a href="/">Title page</a>. 
+    </p>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<%- include('../includes/head.ejs') %>
+<%- include('../includes/movie-head.ejs') %>
 
 <body>
 
@@ -25,7 +25,7 @@
 <script>
     const dialogElement = document.querySelector('dialog');
     const videoFrame = document.getElementById('video-frame');
-    const trailerId = '<%= trailer_id %>';
+    const trailerId = '<%= movies.trailer_id %>';
 
     document.querySelector('button').addEventListener('click', () => {
         dialogElement.showModal();

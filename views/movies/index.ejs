@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('../includes/head', {title: 'All Movies'}) %>
+    <body>
+    
+        <header>
+            <%- include ('../includes/navbar.ejs') %>
+        </header>
+
+         <main>
+        <% movies.forEach(movie => { %>
+                <h2><%= movie.title %></h2>
+                <p>Director: <%= movie.director %></p>
+                <div class="poster_movie_card">
+                    <a href="/movies/<%= movie.slug %>">
+                        <img src= <%= movie.poster %> alt="movie.poster <%= movie.title %>">
+                    </a>
+                </div>
+        <% }); %>
+        </main>
+</body>
+</html>

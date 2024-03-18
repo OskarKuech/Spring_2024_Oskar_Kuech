@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: url('../image/Arrival-Error.jpg') center/cover no-repeat;
+}
+body p {
+    color: white;
+    font-size: 18px;
+}
+body a {
+    text-decoration: underline;
+    color: white;
+}
+

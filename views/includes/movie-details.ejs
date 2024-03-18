@@ -1,34 +1,34 @@
 <main class="details_container">
     <div class="poster_details">
-        <img src= <%= poster %> alt="Poster <%= title %>">
+        <img src= <%= movies.poster %> alt="Poster <%= movies.title %>">
     </div> 
     <section class="movie_informations">
 
-        <div class="movie_title"> <%= title %> </div>
+        <div class="movie_title"> <%= movies.title %> </div>
         <div class="movie_details">
 
             <div class="attribute_line">
                 <div class="attribute_type">Release Date</div>
-                <div> <%= release_date %> </div>
+                <div> <%= movies.release_date %> </div>
             </div>
 
             <div class="attribute_line">
                 <div class="attribute_type">Runtime</div>
-                <div> <%= runtime %> </div>
+                <div> <%= movies.runtime %> </div>
             </div>
             
             <div class="attribute_line">
                 <div class="attribute_type">Director</div>
-                <div> <%= director %> </div>
+                <div> <%= movies.director %> </div>
             </div>
             
             <div class="attribute_line">
                 <div class="attribute_type">Genre</div>
-                <div> <%= genre %> </div>
+                <div> <%= movies.genre %> </div>
             </div>
 
         </div>
-        <div class="movie_description"> <%= description %></div>
+        <div class="movie_description"> <%= movies.description %></div>
         <section class="movie_informations">
             <button class="movie_button">View Trailer</button>
             <div class="movie_button" onclick="alert('The plan is that you can add Movies to a Calendar that you can subscribe to so you don´t forget when a mvovie you want to see releases')">Add to Calendar</div>
