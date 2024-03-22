@@ -1,0 +1,7 @@
+.movie_row {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    gap: 32px;
+}

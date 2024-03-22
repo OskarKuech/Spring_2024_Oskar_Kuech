@@ -6,10 +6,6 @@
     gap: 16px;
 }
 
-.poster_row::-webkit-scrollbar {
-    display: none;
-}
-
 .poster_coming_this_week {
     height: 400px;
     box-sizing: border-box;
@@ -107,6 +103,19 @@
     transform: perspective(400px) rotateY(5deg);
 }
 
+.poster_movie_overview {
+    position: relative;
+    height: 220px;
+    box-sizing: border-box;
+    /* transition: 800ms all; */
+}
+
+.poster_movie_overview img {
+    width: auto;
+    max-width: 140px;
+    height: 100%;
+    display: block;
+}
 
 @media screen and (min-width: 1000px) {
     .poster_row {

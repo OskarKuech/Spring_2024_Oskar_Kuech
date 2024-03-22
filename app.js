@@ -1,14 +1,22 @@
-import express, { request, response } from 'express';
+import express from 'express';
 import fs from 'fs';
-import mongoose, { mongo } from 'mongoose';
+import mongoose from 'mongoose';
 import morgan from 'morgan';  
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+import favicon from 'serve-favicon';
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const app = express();
-app.use(morgan('tiny'));
+//app.use(morgan('tiny'));
 
 app.set('view engine', 'ejs');
 const PORT = 3000;
+
+app.use(favicon(__dirname + '/public/image/Arrival_Walk.jpg'));
+
 
 const moviesSchema = new mongoose.Schema({
     slug: { type: String, unique: true, required: true },
@@ -104,7 +112,7 @@ app.get('/', (request, response) => {
 
 app.get('/:slug', (request, response) => {
     response.render(request.params.slug)
-    response.send('This Page does not exist.')
+    // response.send('This Page does not exist.')
 })
 
 // app.get('/movies/:slug', (request, response) => {

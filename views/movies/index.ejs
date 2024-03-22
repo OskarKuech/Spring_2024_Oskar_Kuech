@@ -8,19 +8,33 @@
         </header>
 
         <main>
-            <%  movies.sort((a, b) => a.title.localeCompare(b.title)).forEach(movie => { %>
-                <h2><%= movie.title %></h2>
-                <p>Director: <%= movie.director %></p>
-                <div class="poster_movie_card">
-                    <a href="/movies/<%= movie.slug %>">
-                        <% if (movie.poster_textless) { %>
-                            <img src="<%= movie.poster_textless %>" alt="movie.poster <%= movie.title %>">
-                        <% } else { %>
-                            <img src="<%= movie.poster %>" alt="movie.poster <%= movie.title %>">
-                        <% } %>
-                    </a>
-                </div>
-            <% }); %>
+
+            <section class="movie_row">
+                <% const moviesWithPosters = movies.filter(movie => movie.poster); %>
+                <% const moviesWithoutPosters = movies.filter(movie => !movie.poster); %>
+    
+                <% if (moviesWithPosters.length > 0) { %>
+                    <% moviesWithPosters.sort((a, b) => a.title.localeCompare(b.title)).forEach(movie => { %>
+                        <div class="poster_movie_overview">
+                            <a href="/movies/<%= movie.slug %>">
+                                <img src="<%= movie.poster %>" alt="Poster <%= movie.title %>">
+                            </a>
+                        </div>
+                    <% }); %>
+                <% } %>
+            </section>
+
+            <br>
+
+            <section>
+                <% if (moviesWithoutPosters.length > 0) { %>
+                        <h3>Movies that don't have a Poster yet:</h3>
+                            <% moviesWithoutPosters.sort((a, b) => a.title.localeCompare(b.title)).forEach(movie => { %>
+                                <a href="/movies/<%= movie.slug %>"><%= movie.title %></a> <br>
+                            <% }); %>
+                <% } %>
+            </section>
         </main>
+
     </body>
 </html>
