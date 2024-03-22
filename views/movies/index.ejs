@@ -7,16 +7,20 @@
             <%- include ('../includes/navbar.ejs') %>
         </header>
 
-         <main>
-        <% movies.forEach(movie => { %>
+        <main>
+            <%  movies.sort((a, b) => a.title.localeCompare(b.title)).forEach(movie => { %>
                 <h2><%= movie.title %></h2>
                 <p>Director: <%= movie.director %></p>
                 <div class="poster_movie_card">
                     <a href="/movies/<%= movie.slug %>">
-                        <img src= <%= movie.poster %> alt="movie.poster <%= movie.title %>">
+                        <% if (movie.poster_textless) { %>
+                            <img src="<%= movie.poster_textless %>" alt="movie.poster <%= movie.title %>">
+                        <% } else { %>
+                            <img src="<%= movie.poster %>" alt="movie.poster <%= movie.title %>">
+                        <% } %>
                     </a>
                 </div>
-        <% }); %>
+            <% }); %>
         </main>
-</body>
+    </body>
 </html>

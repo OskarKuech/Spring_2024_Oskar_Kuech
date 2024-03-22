@@ -1,9 +1,12 @@
 import express, { request, response } from 'express';
 import fs from 'fs';
 import mongoose, { mongo } from 'mongoose';
+import morgan from 'morgan';  
 
 
 const app = express();
+app.use(morgan('tiny'));
+
 app.set('view engine', 'ejs');
 const PORT = 3000;
 
@@ -16,6 +19,7 @@ const moviesSchema = new mongoose.Schema({
     genre: String,
     description: String,
     poster: String,
+    poster_textless: String,
     trailer_id: String
   })
   
@@ -86,9 +90,10 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 
-const details = JSON.parse(fs.readFileSync('./views/movies/details.json'));
+//const details = JSON.parse(fs.readFileSync('./views/movies/details.json'));
 
-mongoose.connect('mongodb://127.0.0.1:27017/filmstarts')
+// mongoose.connect('mongodb://127.0.0.1:27017/filmstarts')
+mongoose.connect('mongodb+srv://oskue:6$e7UErJa.xMZNp@cluster0.uzhjuzp.mongodb.net/filmstarts?retryWrites=true&w=majority&appName=Cluster0')
     .then(() => console.log('Database is connected'))
     .catch (error => console.error(error))
 
