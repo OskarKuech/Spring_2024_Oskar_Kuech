@@ -8,6 +8,14 @@
     gap: 24px;
 }
 
+.password_textstyle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
 .textfield_textstyle input[type="text"] {
     color: black;
     font-family: "Space Grotesk";

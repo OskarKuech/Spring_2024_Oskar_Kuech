@@ -15,7 +15,7 @@ const app = express();
 app.set('view engine', 'ejs');
 const PORT = 3000;
 
-app.use(favicon(__dirname + '/public/image/Arrival_Walk.jpg'));
+app.use(favicon(__dirname + '/public/image/Arrival_Walk.png'));
 
 
 const moviesSchema = new mongoose.Schema({
@@ -63,10 +63,20 @@ const moviesSchema = new mongoose.Schema({
     }catch(error) {
       console.error(error)
       response.render('error', {
-        movies: []
       })
     }
   })
+
+  app.get('/user', async (request, response) => {
+    try {
+        const users = await User.find({}).exec();
+        response.render('user', { users: users });
+    } catch (error) {
+        console.error(error);
+        response.render('error', { message: 'Error retrieving users' });
+    }
+  })
+
 
 
   // app.post('/movies', async (request, response) => {
@@ -100,8 +110,8 @@ app.use(express.json());
 
 //const details = JSON.parse(fs.readFileSync('./views/movies/details.json'));
 
-// mongoose.connect('mongodb://127.0.0.1:27017/filmstarts')
-mongoose.connect('mongodb+srv://oskue:6$e7UErJa.xMZNp@cluster0.uzhjuzp.mongodb.net/filmstarts?retryWrites=true&w=majority&appName=Cluster0')
+//mongoose.connect('mongodb://127.0.0.1:27017/filmstarts')
+mongoose.connect('mongodb+srv://oskue:6$e7UErJa.xMZNp@cluster0.uzhjuzp.mongodb.net/filmstarts?retryWrites=true&w=majority&appName=Cluster0') //I know that this is not perfect because you normally wouldnt want the your password to be visible in the file but I have no Idea how to change this and really had no fun with databases at all!
     .then(() => console.log('Database is connected'))
     .catch (error => console.error(error))
 
@@ -159,7 +169,8 @@ app.post('/users', async (request, response) => {
       })
       await user.save()
   
-      response.send('User successfully Created')
+      //response.send('User successfully Created')
+      response.redirect('/user')
     }catch (error) {
       console.error(error)
       response.send('Error: The User could not be created.')

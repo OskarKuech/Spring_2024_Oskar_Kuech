@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('includes/head', {title: 'About'}) %>
+<body>
+
+    <header>
+        <%- include ('includes/navbar.ejs') %>
+    </header>
+
+    <h1>User List</h1>
+    <ul>
+        <% users.forEach(user => { %>
+            <li>Name: <%= user.name %>, <br> Email: <%= user.email %></li> <br>
+        <% }); %>
+    </ul>
+</body>
+</html>
