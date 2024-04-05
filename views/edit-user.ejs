@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('includes/head', {title: 'About'}) %>
+
+<body>
+    <header>
+        <%- include ('includes/navbar.ejs') %>
+    </header>
+
+    <h1>Edit User</h1>
+
+    <form action="/users/<%= user._id %>/update" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="<%= user.name %>" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="<%= user.email %>" required>
+
+        <button type="submit">Update User</button>
+    </form>
+      
+</body>
+</html>

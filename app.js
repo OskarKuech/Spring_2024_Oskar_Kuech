@@ -110,14 +110,14 @@ app.use(express.json());
 
 //const details = JSON.parse(fs.readFileSync('./views/movies/details.json'));
 
-//mongoose.connect('mongodb://127.0.0.1:27017/filmstarts')
-mongoose.connect('mongodb+srv://oskue:6$e7UErJa.xMZNp@cluster0.uzhjuzp.mongodb.net/filmstarts?retryWrites=true&w=majority&appName=Cluster0') //I know that this is not perfect because you normally wouldnt want the your password to be visible in the file but I have no Idea how to change this and really had no fun with databases at all!
+mongoose.connect('mongodb://127.0.0.1:27017/filmstarts')
+//mongoose.connect('mongodb+srv://oskue:6$e7UErJa.xMZNp@cluster0.uzhjuzp.mongodb.net/filmstarts?retryWrites=true&w=majority&appName=Cluster0') //I know that this is not perfect because you normally wouldnt want the your password to be visible in the file but I have no Idea how to change this and really had no fun with databases at all!
     .then(() => console.log('Database is connected'))
     .catch (error => console.error(error))
 
 
 app.get('/', (request, response) => {
-    response.render('index')
+    response.render('index')  
 })
 
 app.get('/:slug', (request, response) => {
@@ -176,6 +176,43 @@ app.post('/users', async (request, response) => {
       response.send('Error: The User could not be created.')
     }
   })
+
+  app.post('/users/:id/delete', async (request, response) => {
+    try {
+      const userId = request.params.id;
+      await User.deleteOne({ _id: userId });
+      response.redirect('/user');
+    } catch (error) {
+      console.error(error);
+      response.send('Error: The User could not be deleted.');
+    }
+  });
+
+  app.get('/users/:id/edit', async (request, response) => {
+    try {
+      const user = await User.findById(request.params.id).exec();
+      if (!user) throw new Error('User not found');
+      response.render('edit-user', { user: user });
+    } catch (error) {
+      console.error(error);
+      response.render('error', { message: 'Error retrieving user for edit' });
+    }
+  });
+
+  app.post('/users/:id/update', async (request, response) => {
+    try {
+      const userId = request.params.id;
+      const updatedData = {
+        name: request.body.name,
+        email: request.body.email,
+      };
+      await User.findByIdAndUpdate(userId, updatedData, { new: true });
+      response.redirect('/user');
+    } catch (error) {
+      console.error(error);
+      response.send('Error: The User could not be updated.');
+    }
+  });
 
 
 app.listen(PORT, () => {
