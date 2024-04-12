@@ -84,7 +84,8 @@ app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 
-mongoose.connect(process.env.DB_CONNECTION_STRING)
+// mongoose.connect(process.env.DB_CONNECTION_STRING)
+mongoose.connect('mongodb+srv://oskue:6$e7UErJa.xMZNp@cluster0.uzhjuzp.mongodb.net/filmstarts')
   .then(() => console.log('Database is connected'))
   .catch(error => console.error(error));
 
